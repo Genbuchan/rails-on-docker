@@ -1,24 +1,39 @@
-# README
+# README.md
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails 7 on Render
 
-Things you may want to cover:
+## How to Setup
 
-* Ruby version
+### Docker Compose
 
-* System dependencies
+1. Clone this repository to local.
 
-* Configuration
+2. Execute `$ docker compose up -d`
 
-* Database creation
+3. READY GO!
 
-* Database initialization
+### Visual Studio Code Remote Container
 
-* How to run the test suite
+1. Clone this repository to local.
 
-* Services (job queues, cache servers, search engines, etc.)
+2. Open cloned repository using Visual Studio Code.
 
-* Deployment instructions
+3. Press **Reopen in container**.
 
-* ...
+4. READY GO!
+
+### Render
+
+1. Create a new remote repository to your GitHub account.
+
+2. [Duplicate](https://docs.github.com/en/repositories/creating-and-managing-repositories/duplicating-a-repository) this repository.
+
+3. Push duplicated repository to created previous step.
+
+4. [Deploy a new web services](https://render.com/docs/web-services) to your render account.
+
+5. READY GO!
+
+### AWS
+
+Work in progress.
